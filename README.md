@@ -1,32 +1,16 @@
 Best2Pay integration
 ====================
-Best2Pay API integration (including Laravel service provider)
+Best2Pay API integration (including Symfony service provider)
 
 
 
 ## Installation
 ```bash
-composer require kozz/best2pay ~0.2
+composer require pvs812/best2pay
 ```
 
-### Laravel service registration
-Package supports auto discovery for Laravel > 5.5
-
-If you have Laravel <5.5, add service provider in `configs/app.php`
-```php
-'providers' => [
-    /*
-     * Laravel Framework Service Providers...
-     */
-    ...
-
-    /*
-     * Application Service Providers...
-     */
-    ...
-    Kozz\Best2Pay\Laravel\Providers\Best2PayServiceProvider::class
-],
-```
+### Symfony service registration
+Package supports auto discovery for Symfony >= 5.2
 
 You can also add Facade (`configs/app.php`)
 ```php
