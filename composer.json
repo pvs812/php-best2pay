@@ -1,5 +1,5 @@
 {
-  "name": "kozz/best2pay",
+  "name": "pvs812/best2pay",
   "description": "Best2Pay integration",
   "keywords": [
     "best2pay",
@@ -23,7 +23,7 @@
     "phpunit/phpunit": "5.2.*"
   },
   "suggest": {
-    "kozz/laravel-guzzle-provider": "Suggested for loading Guzzle from the application service registry (~6.0)"
+    "kozz/laravel-guzzle-provider": "Suggested for loading Guzzle from the application service registry (~7.2)"
   },
   "autoload": {
     "psr-4": {
